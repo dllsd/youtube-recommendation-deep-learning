@@ -1,0 +1,22 @@
+Epoch [5/30], Loss: 0.6891
+Epoch [10/30], Loss: 0.6799
+Epoch [15/30], Loss: 0.6715
+Epoch [20/30], Loss: 0.6631
+Epoch [25/30], Loss: 0.6548
+Epoch [30/30], Loss: 0.6469
+
+Test Accuracy: 0.6345000267028809
+
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.64      0.78      0.70      1093
+         1.0       0.63      0.46      0.53       907
+
+    accuracy                           0.63      2000
+   macro avg       0.63      0.62      0.62      2000
+weighted avg       0.63      0.63      0.62      2000
+
+Confusion Matrix:
+[[849 244]
+ [487 420]]
